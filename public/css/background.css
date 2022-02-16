@@ -1,0 +1,35 @@
+p.synt
+{
+    background-color: rgb(240, 240, 151);
+    width: 1000px;
+}
+dt
+{
+    color: green;
+}
+body
+{
+    background-image: url(../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg);
+    background-attachment: scroll;
+}
+.example 
+{
+      background-color: rgb(245, 226, 121);              
+      border: solid 20px;
+      background-clip: border-box;
+      padding: auto;
+      color: mediumslateblue;
+      min-height: 80px;
+}
+.example1
+{
+    border: 10px;
+    padding: auto;
+    height: 200px;
+    background: url(../../images/1612713181_25-p-biryuzovo-zelenii-fon-26.jpg);
+    background-origin: content-box;
+}
+h2
+{
+    background-color: white;
+}
