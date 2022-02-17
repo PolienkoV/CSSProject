@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing</title>
+    <link rel="stylesheet" href="../css/box-sizing.css">
+    <link rel="stylesheet" href="../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+</head>
+<body>
+    <header>
+        <h1>box-sizing</h1>
+    </header>
+    <main>
+        <p>
+            Применяется для изменения алгоритма расчета ширины и высоты элемента. <br>
+            Согласно спецификации CSS ширина блока складывается из ширины контента (width), значений отступов (margin), полей (padding) и границ (border). Аналогично обстоит и с высотой блока. Свойство box-sizing позволяет изменить этот алгоритм, чтобы свойства width и height задавали размеры не контента, а размеры блока.
+        </p>
+        <h3>Синтаксис</h3>
+        <p class="synt">
+            box-sizing: content-box | border-box | padding-box | inherit
+        </p>
+        <h3>Значения</h3>
+        <div>
+            <dl>
+                <dt>content-box</dt>
+                <dd>Основывается на стандартах CSS, при этом свойства width и height задают ширину и высоту контента и не включают в себя значения отступов, полей и границ.</dd>
+                <dt>border-box</dt>
+                <dd>Свойства width и height включают в себя значения полей и границ, но не отступов (margin). Эта модель используется браузером Internet Exporer в режиме несовместимости.</dd>
+                <dt>padding-box</dt>
+                <dd>Свойства width и height включают в себя значения полей, но не отступов (margin) и границ (border).</dd>
+                <dt>inherit</dt>
+                <dd>Наследует значение родителя.</dd>
+            </dl>
+        </div>
+            <h3>Пример</h3>
+        <div class="box">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab alias, accusamus autem debitis voluptatum quo et nesciunt voluptatibus ipsa eos quia quis suscipit molestiae nisi soluta sit quam sunt quisquam?
+        </div>
+        </main>
+        <footer>
+            <button class="contents">
+                <a href="../../index.html">Оглавление</a>
+            </button>
+        </footer>
+</body>
+</html>
