@@ -3,3 +3,81 @@ p.synt
     background-color: rgb(240, 240, 151);
     width: 1000px;
 }
+dt
+{
+    color: green;
+}
+body
+{
+    background-image: url(../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg);
+}
+p.bottom-style1 {
+    border-bottom-style: dotted;
+    padding: 5px; 
+
+}
+p.bottom-style2 {
+    border-bottom-style: dashed;
+    padding: 5px; 
+}
+p.bottom-style3 {
+    border-bottom-style: solid;
+    padding: 5px;
+}
+#example
+{
+    position: absolute;
+    background-color: bisque;
+    border-style: double;
+}
+table
+{
+    width: auto;
+    border: 3px;
+    border-collapse: collapse;
+}
+tr
+{
+    text-align: center;
+    padding: 2px;
+    border: 2px solid red;
+}
+td
+{
+    padding: 2px;
+    border: 2 px solid red;
+}
+#example1
+{
+    border-color: red white;
+    border-style: solid;
+}
+#brd
+{
+    border: 30px solid;
+    padding: 10px;
+    -moz-border-image: url(../../images/1613800970_70-p-zolotistie-ramki-na-fone-92.png) 200 round round;
+    -webkit-border-image: url(../../images/1613800970_70-p-zolotistie-ramki-na-fone-92.png) 200 round round;
+    -o-border-image: url(../../images/1613800970_70-p-zolotistie-ramki-na-fone-92.png) 200 round round;
+    border-image: url(../../images/1613800970_70-p-zolotistie-ramki-na-fone-92.png) 200 round round;
+}
+.line
+{
+    border-left: dashed 5pt green;
+    padding-left: 10 px;
+    margin-left: 5 px;
+}
+.line1
+{
+    border-left-color: blue;
+    border-left-style: dotted;
+    border-left-width: 5px;
+    padding-left: 7px;
+}
+.radius
+{
+    background: rgb(235, 224, 224);
+    border: 2px solid white;
+    padding: auto;
+    margin-bottom: 3px;
+}
