@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border</title>
+    <link rel="stylesheet" href="../css/border.css">
+    <link rel="stylesheet" href="/CSSProject/images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+    
+</head>
+<body>
+    <header>
+        <h1>border</h1>
+    </header>
+    <main>
+        <p>
+            Универсальное свойство border позволяет одновременно установить толщину, стиль и цвет границы вокруг элемента. Значения могут идти в любом порядке, разделяясь пробелом, браузер сам определит, какое из них соответствует нужному свойству. Для установки границы только на определенных сторонах элемента, воспользуйтесь свойствами border-top, border-bottom, border-left, border-right.
+        </p>
+        <h3>Синтаксис</h3>
+        <p class="synt">
+            border: [border-width || border-style || border-color] | inherit
+        </p>
+        <h3>Пример</h3>
+        <pre>
+            .brd {
+                border: 4px double black; 
+                background: #fc3; 
+                padding: 10px; 
+               }
+        </pre>
+        <h3 align="center">border-bottom</h3>
+        <p>
+            Свойство позволяет одновременно установить толщину, стиль и цвет границы внизу элемента. Значения могут идти в любом порядке, разделяясь пробелом, браузер сам определит, какое из них соответствует нужному свойству.
+        </p>
+        <h3>Синтаксис</h3>
+        <p class="synt">
+            border-bottom: [border-width || border-style || border-color] | inherit
+        </p>
+        <h3>Пример</h3>
+        <pre>
+            .border {
+                border: 5px double blue;
+            }
+        </pre>
+        <h3 align="center">border-bottom-color</h3>
+        <p>
+            Устанавливает цвет границы внизу элемента.
+        </p>
+        <h3>Синтаксис</h3>
+        <p class="synt">
+            border-bottom-color: цвет | transparent | inherit
+        </p>
+        <h3>Значения</h3>
+        <dl>
+            <dt>transparent</dt>
+            <dd>Устанавливает прозрачный цвет.</dd>
+            <dt>inherit</dt>
+            <dd>Наследует значение родителя.</dd>
+        </dl>
+       <h3>Пример</h3>
+       <pre>
+        .bottom {
+            border-bottom: 3px groove red;
+        }
+       </pre>
+       <h3 align="center">border-bottom-left-radius</h3>
+       <p>
+        Устанавливает радиус скругления левого нижнего уголка рамки. Если рамка не задана, то скругление также происходит и с фоном.
+       </p>
+       <h3>Синтаксис</h3>
+       <p class="synt">
+        border-bottom-left-radius: [значение | проценты] [значение | проценты]
+       </p>
+       <h3>Пример</h3>
+       <pre>
+        .bottom-left-radius {
+            border: 5px double blue;
+            border-bottom-left-radius: 20px;
+        }
+       </pre>
+       <h3 align="center">border-bottom-right-radius</h3>
+       <p>
+           Устанавливает радиус скругления правого нижнего уголка рамки. Если рамка не задана, то скругление также происходит и с фоном.
+       </p>
+       <h3>Синтаксис</h3>
+       <p class="synt">
+        border-bottom-right-radius: [значение | проценты] [значение | проценты]
+       </p>
+       <h3>Пример</h3>
+       <pre>
+        .bottom-right-radius {
+            border: 5px double blue;
+            border-bottom-right-radius: 20px;
+        }
+       </pre>
+       <h3 align="center">border-bottom-style</h3>
+       <p>
+        Устанавливает стиль границы внизу элемента.
+       </p>
+       <h3>Синтаксис</h3>
+       <p class="synt">
+        border-bottom-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|inherit
+       </p>
+       <dl>
+           <dt>none</dt>
+           <dd>Линия не отображается и значение ее толщины обнуляется.</dd>
+           <dt>hidden</dt>
+           <dd>Имеет тот же эффект, что и none за исключением применения border-bottom-style к ячейкам таблицы, у которой значение свойства border-collapse установлено как collapse. В этом случае нижняя граница в ячейке не будет отображаться вообще.</dd>
+           <dt>dotted</dt>
+           <dd>Линия состоящая из набора точек.</dd>
+           <dt>dashed</dt>
+           <dd>Пунктирная линия, состоящая из серии коротких отрезков.</dd>
+           <dt>solid</dt>
+           <dd>Сплошная линия.</dd>
+           <dt>double</dt>
+           <dd>Двойная линия.</dd>
+           <dt>groove</dt>
+           <dd>Создает эффект вдавленной линии</dd>
+           <dt>ridge</dt>
+           <dd>Создает эффект рельефной линии.</dd>
+           <dt>inset</dt>
+           <dd>Псевдотрехмерная линия.</dd>
+           <dt>outset</dt>
+           <dd>Псевдотрехмерная линия.</dd>
+           <dt>inherit</dt>
+           <dd>Наследует значение родителя.</dd>
+       </dl>
+       <h3>Пример</h3>
+       <div>
+        <p class="bottom-style1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur obcaecati in aperiam modi sapiente animi unde velit beatae atque sunt maiores a distinctio corporis eveniet, illo fugiat dolores quisquam architecto.
+        </p>
+        <p class="bottom-style2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis voluptate id facilis blanditiis illum similique reprehenderit, in, maxime saepe unde. Officia, similique omnis minima eaque odit blanditiis magni. Nulla?
+        </p> 
+        <p class="bottom-style3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptates expedita cumque dolores assumenda voluptatem quisquam sunt, libero cum optio, autem corrupti, debitis quae quos nulla earum quasi placeat reiciendis.
+        </p>
+        </div>
+        <h3 align="center">border-bottom-width</h3>
+        <p>
+            Устанавливает толщину границы внизу элемента.
+        </p>
+        <h3>Синтаксис</h3>
+        <p class="synt">
+            border-bottom-width: значение | thin | medium | thick | inherit
+        </p>
+        <h3>Пример</h3>
+        <p id="example">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem non assumenda tenetur blanditiis odit delectus officia quibusdam accusamus libero nemo quae eligendi quas hic dignissimos ipsum, pariatur doloremque aut.
+        </p>
+        <h3 align="center">border-collapse</h3>
+        <p>
+            Устанавливает, как отображать границы вокруг ячеек таблицы. Это свойство играет роль, когда для ячеек установлена рамка, тогда в месте стыка ячеек получится линия двойной толщины (рис. 1а). Значение collapse заставляет браузер анализировать подобные места в таблице и убирать в ней двойные линии. При этом между ячейками остается только одна граница, одновременно принадлежащая обеим ячейкам. То же правило соблюдается и для внешних границ, когда вокруг самой таблицы добавляется рамка.
+        </p>
+        <h3>Синтаксис</h3>
+        <p class="synt">
+            border-collapse: collapse | separate | inherit
+        </p>
+        <h3>Значения</h3>
+        <dl>
+            <dt>collapse</dt>
+            <dd>Линия между ячейками отображается только одна, также игнорируется значение атрибута cellspacing.</dd>
+            <dt>separate</dt>
+            <dd>Вокруг каждой ячейки отображается своя собственная рамка, в местах соприкосновения ячеек показываются сразу две линии.</dd>
+            <dt>inherit</dt>
+            <dd>Наследует значение родителя.</dd>
+        </dl>
+        <h3>Пример</h3>
+        <table>
+            <tr> 
+             <th>&nbsp;</th><th>2013</th>
+             <th>2014</th><th>2015</th>
+            </tr>
+            <tr> 
+             <td>Нефть</td><td>43</td>
+             <td>51</td><td>79</td>
+            </tr>
+            <tr> 
+             <td>Золото</td><td>29</td>
+             <td>34</td><td>48</td>
+            </tr>
+            <tr> 
+             <td>Дерево</td><td>38</td>
+             <td>57</td><td>36</td>
+            </tr>
+           </table>
+           <h3 align="center">border-color</h3>
+           <p>
+            Устанавливает цвет границы на разных сторонах элемента. Свойство позволяет задать цвет границы сразу для всех сторон элемента или только для указанных.
+           </p>
+           <h3>Синтаксис</h3>
+           <p class="synt">
+            border-color: [цвет | transparent] {1,4} | inherit
+           </p>
+           <h3>Значения</h3>
+           <dl>
+               <dt>transparent</dt>
+               <dd>Устанавливает прозрачный цвет</dd>
+               <dt>inherit</dt>
+               <dd>Наследует значение родителя</dd>
+           </dl>
+           <h3>Пример</h3>
+           <p id="example1">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum perspiciatis odio ullam assumenda aliquid ad facere, aut amet a atque, eos quae eum distinctio ipsum, voluptate id veniam ducimus laudantium!
+           </p>
+           <h3 align="center">border-image</h3>
+           <p>
+            Используется для отображения рисованной рамки вокруг элемента. Толщина рамки задаётся свойством border, при этом если указано border: 0, то рамка не выводится. При других значениях border рисунок всегда имеет приоритет. Фон, если он задан через свойство background, отображается под рамкой.
+           </p>
+           <h3>Синтаксис</h3>
+           <p class="synt">
+               border-image: none | [ <URL> [<число> | <проценты>]{1,4} [/ <толщина>{1,4}]? ] && [stretch | repeat | round]{0,2}
+           </p>
+           <h3>Значения</h3>
+           <dl>
+               <dt>none</dt>
+               <dd>Не отображает рисованную рамку, используется установленный стиль границы.</dd>
+               <dt>URL</dt>
+               <dd>Путь к графическому файлу. Обязательный параметр.</dd>
+               <dt><число></dt>
+               <dd>Одно, два, три или четыре значения, которые указывают размеры частей изображения в пикселах, задавая тем самым области деления. Сами единицы не пишутся, только число (10, а не 10px).</dd>
+               <dt><проценты></dt>
+               <dd>Аналогично <числу>, но значения задаются в процентах. Тот или другой параметр обязателен.</dd>
+               <dt><толщина></dt>
+               <dd>Через слэш пишется одно, два, три или четыре значения толщины границы на каждой стороне элемента. Является аналогом border-width и использует тот же синтаксис.</dd>
+               <dt>stretch</dt>
+               <dd>Растягивает рисунок границы до размеров элемента. Это значение используется по умолчанию.</dd>
+               <dt>repeat</dt>
+               <dd>Повторяет рисунок границы.</dd>
+               <dt>round</dt>
+               <dd>Повторяет рисунок и масштабирует его так, чтобы на стороне элемента оказалось целое число изображений.</dd>
+           </dl>
+           <h3>Пример</h3>
+           <div id="brd">
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, quis non. Dignissimos architecto itaque consequatur a provident, magni ratione aut, sunt cupiditate nisi autem perferendis eligendi, aspernatur omnis porro in.
+           </div>
+           <h3 align="center">border-left</h3>
+           <p>
+            Свойство border-left позволяет одновременно установить толщину, стиль и цвет левой границы элемента. Значения могут идти в любом порядке, разделяясь пробелом, браузер сам определит, какое из них соответствует нужному свойству.
+           </p>
+           <h3>Синтаксис</h3>
+           <p class="synt">
+            border-left: [border-width || border-style || border-color] | inherit
+           </p>
+           <h3>Пример</h3>
+           <div class="line">
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio ipsam ab minus harum, doloribus vero, animi quaerat quasi sequi fuga nemo quo itaque voluptatum, deserunt sint facere dicta culpa.
+           </div>
+           <h3 align="center">border-left-color</h3>
+           <p>
+            Задает цвет границы слева от элемента.
+           </p>
+           <h3>Синтаксис</h3>
+           <p class="synt">
+            border-left-color: цвет | transparent | inherit
+           </p>
+           <h3>Пример</h3>
+           <div class="line1">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores maxime accusamus laudantium cupiditate explicabo voluptatum, unde, sint dolorem eum ab laboriosam possimus autem harum mollitia dolore. Placeat, rem tenetur.
+           </div>
+           <h3 align="center">border-radius</h3>
+           <p>
+            Устанавливает радиус скругления уголков рамки. Если рамка не задана, то скругление также происходит и с фоном.
+           </p>
+           <h3>Синтаксис</h3>
+           <p class="synt">
+            border-radius: <радиус>{1,4} [ / <радиус>{1,4}]
+           </p>
+           <h3>Пример</h3>
+           <div style="border-radius: 20px 20px 20px 20px" class="radius">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptas? Nemo voluptates consectetur, optio architecto distinctio laboriosam, est sunt, obcaecati voluptatum harum tenetur excepturi ratione perferendis quisquam eius quia possimus.</div>
+        </main>
+
+</body>
+</html>
