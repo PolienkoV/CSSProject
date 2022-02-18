@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clear</title>
+    <link rel="stylesheet" href="../css/clear.css">
+    <link rel="stylesheet" href="../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+</head>
+<body>
+    <header>
+        <h1>clear</h1>
+    </header>
+    <main>
+        <p>
+            Устанавливает, с какой стороны элемента запрещено его обтекание другими элементами. Если задано обтекание элемента с помощью свойства float, то clear отменяет его действие для указанных сторон.
+        </p>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                clear: none | left | right | both | inherit
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <dl>
+                <dt>none</dt>
+                <dd>Отменяет действие свойства clear, при этом обтекание элемента происходит, как задано с помощью свойства float или других настроек.</dd>
+                <dt>both</dt>
+                <dd>Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны.</dd>
+                <dt>left</dt>
+                <dd>Отменяет обтекание с левого края элемента. При этом все другие элементы на этой стороне будут опущены вниз, и располагаться под текущим элементом.</dd>
+                <dt>right</dt>
+                <dd>Отменяет обтекание с правой стороны элемента.</dd>
+                <dt>inherit</dt>
+                <dd>Устанавливает значение родителя.</dd>
+            </dl>
+        </div>
+        <div>
+            <h3>Пример</h3>
+            <p id="clr">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ab minus illo tempore exercitationem incidunt iure nemo dolorem dolor, aut necessitatibus cupiditate harum ipsum omnis esse, sit officia enim ducimus!
+            </p>
+            <p style="clear: right;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis tenetur doloribus consequuntur quae nobis nisi aspernatur sapiente labore tempore fugit, eos nam voluptatibus laborum, repellendus unde non optio dolore rerum.</p>
+        </div>
+    </main>
+    <footer>
+        <button>
+            <a href="../../index.html">Оглавление</a>
+        </button>
+    </footer>
+</body>
+</html>
