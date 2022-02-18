@@ -1,0 +1,16 @@
+body
+{
+    background-image: url(../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg);
+}
+.synt
+{
+    background-color: gold;
+}
+#clp
+{
+    position: absolute;
+    clip: rect(40px, auto, auto, 40px);
+    width: 200px;
+    border: 3px solid black;
+    padding: 10px;
+}
