@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>empty-cells</title>
+    <link rel="stylesheet" href="../css/empty-cells.css">
+    <link rel="stylesheet" href="../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+</head>
+<body>
+    <header>
+        <h1>empty-cells</h1>
+    </header>
+    <main>
+        <div>
+            <p>
+               Задает отображение границ и фона в ячейке, если она пустая. При одновременном добавлении к таблице свойства border-collapse со значением collapse, свойство empty-cells игнорируется.
+            </p>
+            <ul>
+                Ячейка считается пустой в следующих случаях:
+                <li>нет вообще никаких символов;</li>
+                <li>в ячейке содержится только перевод строки, символ табуляции или пробел;</li>
+                <li>значение visibility установлено как hidden</li>
+            </ul>
+            <p>
+                Добавление неразрывного пробела &nbsp; воспринимается как видимое содержание, т.е. ячейка уже будет непустой.
+            </p>
+        </div>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                empty-cells: show | hide
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <dl>
+                <dt>show</dt>
+                <dd>Отображает границу вокруг ячейки и фон в ней.</dd>
+                <dt>hide</dt>
+                <dd>Граница и фон в пустых ячейках не отображается. Если все ячейки в строке пустые, то строка прячется целиком.</dd>
+            </dl>
+        </div>
+        <div>
+            <h3>Пример</h3>
+            <table width="100%">
+                <tr>
+                 <td>Леонардо</td><td>5</td><td>8</td>
+                </tr>
+                <tr>
+                 <td>Рафаэль</td><td> </td><td>11</td>
+                </tr>
+                <tr>
+                 <td>Микеланджело</td><td>24</td><td></td>
+                </tr>
+                <tr>
+                 <td>Донателло</td><td>&nbsp;</td><td>13</td>
+                </tr>
+               </table>
+        </div>
+    </main>
+    <footer>
+        <button>
+            <a href="../../index.html">Оглавление</a>
+        </button>
+    </footer>
+</body>
+</html>
