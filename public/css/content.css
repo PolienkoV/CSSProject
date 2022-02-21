@@ -1,0 +1,22 @@
+body
+{
+    background-image: url(../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg);
+}
+.synt
+{
+    background-color: gold;
+}
+.content
+{
+    color: navy;
+    font-family: monospace;
+    quotes: "<" ">";
+}
+.content:before
+{
+    content: open-quote;
+}
+.content:after
+{
+    content: close-quote;
+}

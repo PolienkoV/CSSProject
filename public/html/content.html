@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>content</title>
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+</head>
+<body>
+    <header>
+        <h1>content</h1>
+    </header>
+    <main>
+        <div>
+            <p>
+            Свойство content позволяет вставлять генерируемое содержание в текст веб-страницы, которое первоначально в тексте отсутствует. Применяется совместно с псевдоэлементами :after и :before, они соответственно указывают отображать новое содержимое после или до элемента, к которому добавляются.
+            </p>
+    </div>
+    <div>
+        <h3>Синтаксис</h3>
+        <p class="synt">
+            content: строка | attr(параметр) | open-quote | close-quote | no-open-quote | no-close-quote | url | counter | normal | none | inherit
+        </p>
+    </div>
+    <div>
+        <h3>Значения</h3>
+        <dl>
+            <dt>Строка</dt>
+            <dd>Текст, который добавляется на веб-страницу, строка при этом должна браться в двойные или одинарные кавычки. Допускается использовать юникод для вставки спецсимволов. Спецсимволы HTML которые начинаются с амперсанда (&sect; например), будут отображаться как есть, т.е. простым текстом (&sect;, а не §).</dd>
+            <dt>attr(параметр)</dt>
+            <dd>Возвращает строку, которая является значением параметра тега указанного в скобках. Например, a:after {content:attr(href)} добавит после ссылки её адрес, т.е. значение атрибута href. Если указанного атрибута нет, вернется пустая строка.</dd>
+            <dt>open-quote</dt>
+            <dd>Вставляет открывающую кавычку, тип которой устанавливается с помощью стилевого свойства quotes.</dd>
+            <dt>close-quote</dt>
+            <dd>Вставляет закрывающую кавычку.</dd>
+            <dt>no-open-quotes</dt>
+            <dd>Отменяет добавление открывающей кавычки.</dd>
+            <dt>no-close-quote</dt>
+            <dd>Отменяет добавление закрывающей кавычки.</dd>
+            <dt>url</dt>
+            <dd>Абсолютный или относительный адрес вставляемого объекта. Если указанный файл браузер не может отобразить, то значение игнорируется.</dd>
+            <dt>counter</dt>
+            <dd>Выводит значение счетчика, заданного свойством counter-reset.</dd>
+            <dt>none</dt>
+            <dd>Не добавляет никакое содержание.</dd>
+            <dt>normal</dt>
+            <dd>Задается как none для псевдоэлементов :before и :after.</dd>
+            <dt>inherit</dt>
+            <dd>Наследует значение родителя.</dd>
+        </dl>
+    </div>
+    <div>
+        <h3>Пример</h3>
+        <p>
+            Lorem <span class="content">ipsum</span>  dolor sit, amet consectetur adipisicing elit. Laborum, nostrum deleniti! Aliquam nam error dolore qui quod totam eos dolor necessitatibus reiciendis architecto expedita eum voluptatem, eaque inventore rem vel!
+        </p>
+    </div>
+    </main>
+</body>
+<footer>
+    <button>
+        <a href="../../index.html">Оглавление</a>
+    </button>
+</footer>
+</html>
