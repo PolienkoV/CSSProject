@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cursor</title>
+    <link rel="stylesheet" href="../css/cursor.css">
+    <link rel="stylesheet" href="../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+</head>
+<body>
+    <header>
+        <h1>cursor</h1>
+    </header>
+    <main>
+        <div>
+            <p>
+                Устанавливает форму курсора, когда он находится в пределах элемента. Вид курсора зависит от операционной системы и установленных параметров.
+            </p>
+            <p>
+                Прежде чем воспользоваться возможностью переделать вид курсора, решите, а будет ли он использоваться к месту. Многих пользователей подобные изменения могут ввести в заблуждение, когда, например, вместо традиционной руки, появляющейся при наведении на ссылку, возникает нечто другое. В большинстве случаев, лучше оставить все как есть.
+            </p>
+        </div>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                cursor: [url('путь к курсору'),] | [ auto | crosshair | default | e-resize | help | move | n-resize | ne-resize | nw-resize | pointer | progress | s-resize | se-resize | sw-resize | text | w-resize | wait | inherit ]
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <dl>
+                <dt>url</dt>
+                <dd>Позволяет установить свой собственный курсор, для этого нужно указать путь к файлу с курсором.</dd>
+                <dt>auto</dt>
+                <dd>Вид курсора по умолчанию для текущего элемента.</dd>
+                <dt>inherit</dt>
+                <dd>Наследует значение родителя.</dd>
+            </dl>
+            <p>
+                При добавлении курсора из файла синтаксис несколько видоизменится.
+            </p>
+            <p class="synt">
+                cursor: url('путь к курсору1'), url('путь к курсору2'), ..., <ключевое слово>
+            </p>
+            <p>
+                Через запятую допускается указывать несколько значений url, в этом случае браузер попытается открыть первый файл с курсором и если это по каким-либо причинам не получится, перейдет к следующему файлу. Список обязательно заканчивается ключевым словом, например, auto или pointer, допустимые значения перечислены выше.
+            </p>
+        </div>
+        <div>
+            <h3>Пример</h3>
+                <p class="cross">На этом тексте курсор мыши примет вид перекрестья.</p>
+                <p> 
+                    <a href="help.html" class="help">СПРАВКА 1</a><br />
+                    <a href="help.html" class="help">СПРАВКА 2</a><br />
+                    <a href="help.html" class="help">СПРАВКА 3</a>
+                </p> 
+        </div>
+    </main>
+    <footer>
+        <button>
+            <a href="../../index.html">Оглавление</a>
+        </button>
+    </footer>
+</body>
+</html>
