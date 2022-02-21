@@ -1,0 +1,22 @@
+body
+{
+    background-image: url(../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg);
+}
+.synt
+{
+    background-color: gold;
+    width: 1000px;
+}
+.clmnr
+{
+    -moz-column-count: 5;
+    -moz-column-width: 200px;
+    -moz-column-rule: 5px solid red;
+    -webkit-column-rule: 5px solid red;
+    -webkit-column-width: 200px;
+    -webkit-column-count: 5;
+    column-count: 5;
+    column-width: 200 px;
+    column-rule: 5px solid red;
+
+}
