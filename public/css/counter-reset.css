@@ -1,0 +1,35 @@
+body
+{
+    background-image: url(../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg);
+}
+.synt
+{
+    background-color: gold;
+    width: 1000px;
+}
+li
+{
+    list-style-type: none;
+}
+ol
+{
+    counter-reset: list1;
+}
+ol li::before
+{
+    counter-increment: list1;
+    content: counter(list1) ". ";
+}
+ol ol
+{
+    counter-reset: list2;
+}
+ol ol li::before
+{
+    counter-increment: list2;
+    content: counter(list1) "." counter(list2) ". ";
+}
+dt
+{
+    color: green;
+}

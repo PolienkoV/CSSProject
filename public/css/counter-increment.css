@@ -13,3 +13,7 @@ h4:before
     counter-increment: heading;
     content: "Глава" counter(heading) ". ";
 }
+dt
+{
+    color: green;
+}
