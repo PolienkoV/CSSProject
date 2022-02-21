@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <link rel="stylesheet" href="../css/display.css">
+    <link rel="stylesheet" href="../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+</head>
+<body>
+    <header>
+        <h1>display</h1>
+    </header>
+    <main>
+        <div>
+            <p>
+                Многоцелевое свойство, которое определяет, как элемент должен быть показан в документе.
+            </p>
+        </div>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                display: block | inline | inline-block | inline-table | list-item | none | run-in | table | table-caption | table-cell | table-column-group | table-column | table-footer-group | table-header-group | table-row | table-row-group
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <p>
+                Список возможных значений этого свойства, понимаемый разными браузерами очень короткий — block, inline, list-item и none. Все остальные допустимые значения поддерживаются браузерами выборочно.
+            </p>
+            <dl>
+                <dt>block</dt>
+                <dd>
+                    Элемент показывается как блочный. Применение этого значения для встроенных элементов, например тега &lt;span&gt;, заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого.
+                </dd>
+                <dt>inline</dt>
+                <dd>
+                    Элемент отображается как встроенный. Использование блочных тегов, таких как &lt;div&gt; и &lt;p&gt;, автоматически создает перенос и показывает содержимое этих тегов с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.
+                </dd>
+                <dt>list-item</dt>
+                <dd>Элемент выводится как блочный и добавляется маркер списка.</dd>
+                <dt>none</dt>
+                <dd>
+                    Временно удаляет элемент из документа. Занимаемое им место не резервируется и веб-страница формируется так, словно элемента и не было. Изменить значение и сделать вновь видимым элемент можно с помощью скриптов, обращаясь к свойствам через объектную модель. В этом случае происходит переформатирование данных на странице с учетом вновь добавленного элемента.
+                </dd>
+            </dl>
+        </div>
+        <div>
+            <h3>Пример</h3>
+                   <p class="example">
+                    &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&gt;<br>
+                    &lt;html&gt;<br>
+                    &lt;body&gt;<br>
+                    &lt;b&gt;Формула серной кислоты:&lt;/b&gt;
+                    &lt;i&gt;H&lt;sub&gt;&lt;small&gt;2&lt;/small&gt;&lt;/sub&gt;
+                    SO&lt;sub&gt;&lt;small&gt;4&lt;/small&gt;
+                    &lt;/sub&gt;&lt;/i&gt;<br>
+                    &lt;/body&gt;<br>
+                    &lt;/html&gt;</p>
+        </div>
+    </main>
+    <footer>
+        <button>
+            <a href="../../index.html">Оглавление</a>
+        </button>
+    </footer>
+</body>
+</html>
