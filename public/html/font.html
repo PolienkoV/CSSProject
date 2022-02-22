@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>font</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+</head>
+<body>
+    <header>
+        <h1>font</h1>
+    </header>
+    <main>
+        <div>
+            <p>
+                Универсальное свойство, которое позволяет одновременно задать несколько характеристик шрифта и текста.
+            </p>
+        </div>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                font: [font-style||font-variant||font-weight] font-size [/line-height] font-family | inherit
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <p>
+                В качестве обязательных значений свойства font указывается размер шрифта и его семейство. Остальные значения являются опциональными и задаются при желании. Для подробного ознакомления смотрите информацию о каждом свойстве отдельно.
+            </p>
+            <dl>
+                <dt>inherit</dt>
+                <dd>Наследует значение родителя.</dd>
+            </dl>
+            <p>
+                Допускается в качестве значения использовать ключевые слова, определяющие шрифт различных элементов операционной системы пользователя.
+            </p>
+            <dl>
+                <dt>caption</dt>
+                <dd>Шрифт для текста элементов форм вроде кнопок.</dd>
+                <dt>icon</dt>
+                <dd>Шрифт для текста под иконками.</dd>
+                <dt>menu</dt>
+                <dd>Шрифт применяемый в меню.</dd>
+                <dt>message-box</dt>
+                <dd>Шрифт для диалоговых окон.</dd>
+                <dt>small-caption</dt>
+                <dd>Шрифт для подписей к небольшим элементам управления.</dd>
+                <dt>status-bar</dt>
+                <dd>Шрифт для строки состояния окон.</dd>
+            </dl>
+        </div>
+        <div>
+            <h3>Примеры использования</h3>
+            <p class="synt">
+                p { font: 12pt/10pt sans-serif; }
+            </p>
+            <p>
+                Из типографики пошла запись указывать через слэш размер шрифта и межстрочное расстояние (интерлиньяж). Поэтому 12pt в данном случае означает размер основного текста в пунктах, а 10pt — интерлиньяж. В качестве семейства указывается рубленый шрифт (sans-serif).
+            </p>
+            <p class="synt">
+                p { font: bold italic 110% serif; }
+            </p>
+            <p>
+                Значение bold устанавливает жирное начертание текста, а italic — курсивное. В данном случае их порядок не важен, поэтому bold и italic можно поменять местами. Размер текста задается в процентах, а в качестве гарнитуры используется шрифт с засечками (serif).
+            </p>
+            <p class="synt">
+                p { font: normal small-caps 12px/14px fantasy; }
+            </p>
+            <p>
+                Значение small-caps принадлежит свойству font-variant и устанавливает текст в виде капители (заглавные буквы уменьшенного размера). Значение normal применяется сразу к двум свойствам: font-style и font-weight.
+            </p>
+        </div>
+        <div>
+            <h3>Пример</h3>
+            <p class="font">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dignissimos sapiente accusantium et libero necessitatibus quam quia nesciunt. Officia sunt rem hic quibusdam quisquam deserunt quae sequi odit sit vitae.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <button>
+            <a href="../../index.html">Оглавление</a>
+        </button>
+    </footer>
+</body>
+</html>
