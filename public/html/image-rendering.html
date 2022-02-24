@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-rendering</title>
+    <link rel="stylesheet" href="../css/image-rendering.css">
+    <link rel="stylesheet" href="../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+</head>
+<body>
+    <header>
+        <h1>image-rendering</h1>
+    </header>
+    <main>
+        <div>
+            <p>
+                Сообщает браузеру, каким алгоритмом интерполировать изображение при масштабировании его размеров или изменении масштаба в параметрах браузера.
+            </p>
+        </div>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                image-rendering: auto | optimizeSpeed | optimizeQuality | inherit | crisp-edges
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <dl>
+                <dt>auto</dt>
+                <dd>Браузер автоматически подбирает алгоритм интерполяции, обычно соответствует optimizeQuality.</dd>
+                <dt>optimizeSpeed</dt>
+                <dd>Цель алгоритма — быстрое отображение картинки, для чего применяется метод интерполяции по ближайшим точкам. Он не создаёт сглаживания вокруг линий и его можно рекомендовать в тех случаях, когда требуется сохранить первоначальный набор цветов и резкость краёв.</dd>
+                <dt>optimizeQuality</dt>
+                <dd>Повышает качество картинки за счёт использования бикубического метода интерполяции. Это даёт сглаженные границы и плавный тоновый диапазон цветов.</dd>
+                <dt>crisp-edges</dt>
+                <dd>Сохраняет контраст и контуры изображения, не допуская размытия цветов и контуров.</dd>
+            </dl>
+        </div>
+        <div>
+            <h3>Пример</h3>
+            <p><img src="../../images/001.jpg" alt="Image" width="200px"></p>
+            <p><img src="../../images/001.jpg" alt="Image2" width="200px" class="rend"></p>
+        </div>
+    </main>
+    <footer>
+        <button>
+            <a href="../../index.html">Оглавление</a>
+        </button>
+    </footer>
+</body>
+</html>
