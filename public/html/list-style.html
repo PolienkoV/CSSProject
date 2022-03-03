@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list-style</title>
+    <link rel="stylesheet" href="../css/list-style.css">
+    <link rel="stylesheet" href="../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg">
+</head>
+<body>
+    <header>
+        <h1>list-style</h1>
+    </header>
+    <main>
+        <div>
+            <p>
+                Универсальное свойство, позволяющее одновременно задать стиль маркера, его положение, а также изображение, которое будет использоваться в качестве маркера. 
+            </p>
+        </div>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                list-style: list-style-type || list-style-position || list-style-image | inherit
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <p>
+                Любые комбинации трех значений определяющих стиль маркеров, они разделяются между собой пробелом. Комбинации значений должны следовать в указанном порядке: вначале идет тип маркера, затем положение и картинка. Ни одно значение не является обязательным, поэтому неиспользуемые можно опустить.
+            </p>
+        </div>
+        <div>
+            <h3>Пример</h3>
+            <ul class="ul1">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetuer adipiscing elit</li>
+                <li>Sed diem nonummy nibh euismod</li>
+                <li>Tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis 
+                 enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis 
+                 nisl ut aliquip ex ea commodo consequat.</li>
+               </ul>
+        </div>
+        <div>
+            <h3 align="center">list-style-image</h3>
+        </div>
+        <div>
+            <p>
+                Устанавливает адрес изображения, которое служит в качестве маркера списка. Это свойство наследуется, поэтому для отдельных элементов списка для восстановления маркера используется значение none.
+            </p>
+        </div>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                list-style-image: none | url('путь к файлу') | inherit
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <dl>
+                <dt>none</dt>
+                <dd>Отменяет изображение в качестве маркера для родительского элемента.</dd>
+                <dt>url</dt>
+                <dd>Относительный или абсолютный путь к графическому файлу. Значение можно указывать в одинарных, двойных кавычках или без них.</dd>
+            </dl>
+        </div>
+        <div>
+            <h3>Пример</h3>
+            <ul class="ul2">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetuer adipiscing elit</li>
+                <li>Sed diem nonummy nibh euismod</li>
+                <li>Tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis 
+                enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis 
+                nisl ut aliquip ex ea commodo consequat.</li>
+               </ul>
+        </div>
+        <div>
+            <h3 align="center">list-style-position</h3>
+        </div>
+        <div>
+            <p>
+                Определяет, как будет размещаться маркер относительно текста. Имеется два значения: outside — маркер вынесен за границу элемента списка и inside — маркер обтекается текстом.
+            </p>
+        </div>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                list-style-position: inside | outside
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <dl>
+                <dt>inside</dt>
+                <dd>Маркер является частью текстового блока и отображается в элементе списка.</dd>
+                <dt>outside</dt>
+                <dd>Текст выравнивается по левому краю, а маркеры размещаются за пределами текстового блока.</dd>
+            </dl>
+        </div>
+        <div>
+            <h3>Пример</h3>
+            <ul class="ul3">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetuer adipiscing elit</li>
+                <li>Sed diem nonummy nibh euismod</li>
+                <li>Tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis 
+                enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis 
+                nisl ut aliquip ex ea commodo consequat.</li>
+               </ul>
+        </div>
+        <div>
+            <h3 align="center">list-style-type</h3>
+        </div>
+        <div>
+            <p>
+                Изменяет вид маркера для каждого элемента списка. Это свойство используется только в случае, когда значение list-style-image установлено как none. Маркеры различаются для маркированного списка (тег &lt;ul&gt;) и нумерованного (тег &lt;ol&gt;).
+            </p>
+        </div>
+        <div>
+            <h3>Синтаксис</h3>
+            <p class="synt">
+                list-style-type: circle | disc | square | armenian | decimal | decimal-leading-zero | georgian | lower-alpha | lower-greek | lower-latin | lower-roman | upper-alpha | upper-latin | upper-roman | none | inherit
+            </p>
+        </div>
+        <div>
+            <h3>Значения</h3>
+            <p>Значения зависят от того, к какому типу списка они применяются: маркированному или нумерованному.</p>
+        </div>
+        <div>
+            <h4>Маркированный список</h4>
+            <dl>
+                <dt>circle</dt>
+                <dd>Маркер в виде кружка.</dd>
+                <dt>disc</dt>
+                <dd>Маркер в виде точки.</dd>
+                <dt>square</dt>
+                <dd>Маркер в виде квадрата.</dd>
+            </dl>
+            <h4>Нумерованный список</h4>
+            <dl>
+                <dt>armenian</dt>
+                <dd>Традиционная армянская нумерация.</dd>
+                <dt>decimal</dt>
+                <dd>Арабские числа (1, 2, 3, 4,...).</dd>
+                <dt>decimal-leading-zero</dt>
+                <dd>Арабские числа с нулем впереди для цифр меньше десяти (01, 02, 03,...).</dd>
+                <dt>georgian</dt>
+                <dd>Традиционная грузинская нумерация.</dd>
+                <dt>lower-alpha</dt>
+                <dd>Строчные латинские буквы (a, b, c, d,...).</dd>
+                <dt>lower-greek</dt>
+                <dd>Строчные греческие буквы (α, β, γ, δ,...).</dd>
+                <dt>lower-latin</dt>
+                <dd>Это значение аналогично lower-alpha.</dd>
+                <dt>lower-roman</dt>
+                <dd>Римские числа в нижнем регистре (i, ii, iii, iv, v,...).</dd>
+                <dt>upper-alpha</dt>
+                <dd>Заглавные латинские буквы (A, B, C, D,...).</dd>
+                <dt>upper-latin</dt>
+                <dd>Это значение аналогично upper-alpha.</dd>
+                <dt>upper-roman</dt>
+                <dd>Римские числа в верхнем регистре (I, II, III, IV, V,...).</dd>
+                <dt>none</dt>
+                <dd>Отменяет маркеры для списка.</dd>
+                <dt>inherit</dt>
+                <dd>Наследует значение родителя.</dd>
+            </dl>
+        </div>
+        <div>
+            <h3>Пример</h3>
+            <ol>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetuer adipiscing elit</li>
+                <li>Sed diem nonummy nibh euismod</li>
+                <li>Tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis 
+                 enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis 
+                 nisl ut aliquip ex ea commodo consequat.</li>
+                </ol>
+        </div>
+    </main>
+    <footer>
+        <button>
+            <a href="../../index.html">Оглавление</a>
+        </button>
+    </footer>
+</body>
+</html>
