@@ -1,0 +1,22 @@
+body {
+    background-image: url(../../images/1612802097_17-p-nezhno-goluboi-fon-dlya-fotoshopa-17.jpg);
+}
+
+.synt {
+    background-color: gold;
+    width: 1000px;
+}
+
+#bottom {
+    background: #66806E url(images/clover.png) no-repeat 20px bottom; /* Параметры фона */ 
+    min-height: 80px; /* Минимальная высота */ 
+    color: #E4BC96; /* Цвет текста */ 
+    padding: 5px 5px 5px 140px; /* Поля вокруг текста */ 
+    }
+
+#bottom p { 
+    margin: 5px 0; 
+}
+#bottom a {
+    color: #FFFDE0;
+}
